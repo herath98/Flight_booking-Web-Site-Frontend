@@ -69,10 +69,7 @@ const Navbar = () => {
             <button className='btn flex btnOne'>
               Contast
             </button>
-            <button className='btn flex btnTwo'>
-              Contast
-            </button>
-            
+           
 
           </div>
         </div>
