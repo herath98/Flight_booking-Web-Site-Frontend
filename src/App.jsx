@@ -15,6 +15,11 @@ const App = () => {
   return (
     <div>
       <Navbar />
+      <main>
+        <Routes>
+          <Route path='/' element={<Home />}/>
+        </Routes>
+      </main>
       {/* <Home />
       <Search />
       <Support />
@@ -23,6 +28,7 @@ const App = () => {
       <Travelers />
       <Subscibers />
       <Footer /> */}
+      <Footer />
 
     </div>
   )

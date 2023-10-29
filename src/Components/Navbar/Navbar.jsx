@@ -66,9 +66,7 @@ const Navbar = () => {
               <li onClick={removeNavBar} className="listIteam">Destination</li>
               
             </ul>
-            <button className='btn flex btnOne'>
-              Contast
-            </button>
+            
            
 
           </div>
