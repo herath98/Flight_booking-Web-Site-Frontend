@@ -259,9 +259,10 @@ h1{
   .mainText {
     font-style: oblique;
     color: black;
-    font-weight: 700;
+    font-weight: 1000;
     font-size: 15px;
     line-height: 2.5;
+    margin-left: 2rem;
   }
 
   .homeImage {
@@ -451,6 +452,7 @@ h1{
   background: rgba(238, 238, 210, 0.596);
 
   .infoContainer {
+    margin-top: 3rem;
     .titleDiv {
       flex-direction: column;
       text-align: center;

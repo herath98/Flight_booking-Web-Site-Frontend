@@ -1,33 +1,26 @@
-// eslint-disable-next-line no-unused-vars
-import React from 'react'
+
 import { Routes, Route } from 'react-router-dom';
 import Home from './Components/Home/Home'
 import Navbar from './Components/Navbar/Navbar'
-import Search from './Components/Search/Search'
-import Lounge from './Components/Lounge/Lounge'
 import Footer from './Components/Footer/Footer'
-import Support from './Components/Support/Support'
 import Travelers from './Components/Travelers/Travelers'
 import Info from './Components/Info/Info'
 import Subscibers from './Components/Subscribers/Subscribers'
-// import main from './main.css'
+
 const App = () => {
   return (
     <div>
       <Navbar />
       <main>
         <Routes>
-          <Route path='/' element={<Home />}/>
+          <Route path='/' element={<Home />} />
+          <Route path='Info' element={<Info />} />
+          <Route path='Travelers' element={<Travelers />} />
+          <Route path='Subscibers' element={<Subscibers />} />
         </Routes>
       </main>
-      {/* <Home />
-      <Search />
-      <Support />
-      <Info />
-      <Lounge />
-      <Travelers />
-      <Subscibers />
-      <Footer /> */}
+
+
       <Footer />
 
     </div>

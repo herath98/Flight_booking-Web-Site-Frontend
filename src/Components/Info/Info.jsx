@@ -1,13 +1,17 @@
-import React,{useEffect} from 'react'
+import{useEffect} from 'react'
+
 import {RxCalendar} from 'react-icons/rx'
 import {BsShieldCheck} from 'react-icons/bs'
 import {BsBookmarkCheck} from 'react-icons/bs'
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import Support from '../Support/Support'
+import Lounge from '../Lounge/Lounge'
 
 const info = () => {
 
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   useEffect(()=>{
     Aos.init({duration: 2000})
   }, [])
@@ -51,6 +55,8 @@ const info = () => {
           </div>
         </div>
       </div>
+      <Support/>
+      <Lounge />
     </div>
   )
 }

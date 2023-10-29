@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import{useEffect} from 'react'
 import gridImage from '../../assets/img8.jpg'
 
 import Aos from 'aos'

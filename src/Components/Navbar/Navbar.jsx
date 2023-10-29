@@ -1,5 +1,5 @@
-// eslint-disable-next-line no-unused-vars
-import React,{useState}from 'react'
+import {useState}from 'react'
+import { Link } from 'react-router-dom';
 
 import { SiConsul } from 'react-icons/si';
 import { BsPhoneVibrate } from 'react-icons/bs';
@@ -59,10 +59,10 @@ const Navbar = () => {
             </div>  
           <div className={active}>
             <ul className="menu flex">
-              <li onClick={removeNavBar} className="listIteam">Home</li>
-              <li onClick={removeNavBar} className="listIteam">About</li>
-              <li onClick={removeNavBar} className="listIteam">Offers</li>
-              <li onClick={removeNavBar} className="listIteam">Seats</li>
+              <Link to='/'><li onClick={removeNavBar} className="listIteam">Home</li></Link>
+              <Link to='Info'><li onClick={removeNavBar} className="listIteam">About</li></Link>
+              <Link to='Travelers'><li onClick={removeNavBar} className="listIteam">Offers</li></Link>
+              <Link to='Subscibers'><li onClick={removeNavBar} className="listIteam">Subscibers</li></Link>
               <li onClick={removeNavBar} className="listIteam">Destination</li>
               
             </ul>
